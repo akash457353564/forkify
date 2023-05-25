@@ -8,7 +8,7 @@ const get_recipe = async function (url) {
         const data = await res.json()
 
         if(!res.ok){
-            throw new Error (`${data.message}`)
+            throw new Error (`HERE ${data.message}`)
         }
         console.log(res, data)
 
@@ -18,5 +18,5 @@ const get_recipe = async function (url) {
 
 }
 
-get_recipe(`https://forkify-api.herokuapp.com/api/v2/recipes/5ed6604591c37cdc054bc886fergrg`)
+get_recipe(`https://forkify-api.herokuapp.com/api/v2/recipes/5ed6604591c37cdc054bc886w`)
 
