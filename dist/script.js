@@ -568,7 +568,7 @@ const get_recipe = async function(url) {
         console.error(err);
     }
 };
-get_recipe(`https://forkify-api.herokuapp.com/api/v2/recipes/5ed6604591c37cdc054bc886w`);
+get_recipe(`https://forkify-api.herokuapp.com/api/v2/recipes/5ed6604591c37cdc054bc886`);
 
 },{}]},["dpgAG","6rimH"], "6rimH", "parcelRequire3a11")
 
